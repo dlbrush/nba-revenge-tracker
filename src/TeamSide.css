@@ -1,0 +1,10 @@
+.revenge-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.player-photo {
+  max-height: 100px;
+  max-width: 50%;
+}
