@@ -5,7 +5,7 @@ const TeamSide = ({team, revenge}) => {
     <div className="TeamSide text-center mb-4">
       <team.Logo />
       <h4>{`${team.location} ${team.name}`}</h4>
-      {revenge.length > 0 && <h5>Revenge Players:</h5>}
+      {revenge.length > 0 && <h5>Getting Revenge:</h5>}
       {!revenge.length && <h5 className="text-success">No Revenge</h5>}
       <ul className="revenge-list mb-2">
         {revenge.map(player => {
